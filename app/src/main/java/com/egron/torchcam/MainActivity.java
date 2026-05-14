@@ -407,7 +407,6 @@ public class MainActivity extends Activity {
                 (float) viewWidth / previewSize.getWidth()
         );
         matrix.postScale(scale, scale, centerX, centerY);
-        matrix.postRotate(90, centerX, centerY);
         previewView.setTransform(matrix);
     }
 
