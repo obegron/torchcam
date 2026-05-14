@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Android SDK/config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated Android artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Signing material
+*.jks
+*.keystore
+
+# Logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
+
+# Kotlin daemon/session files
+.kotlin/
